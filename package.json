@@ -1,0 +1,19 @@
+{
+  "name": "sora2-invite-system",
+  "version": "1.0.0",
+  "description": "Sora2 邀请码自助系统 - GitHub OAuth + Vercel",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'No build step required'",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "@vercel/kv": "^1.0.1"
+  },
+  "devDependencies": {
+    "vercel": "^33.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
